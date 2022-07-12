@@ -16,10 +16,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,36,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 .logo{
     margin-left: 80px;
+    color: aliceblue;
 }
 
 nav ul{
@@ -34,14 +37,9 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: black;
     text-transform: uppercase;
     font-size: 13px;
-    color: #232323;
-}
-
-nav ul li a:hover{
-    color: #000000;
+    color: aliceblue;
 }
 
 main{
@@ -57,11 +55,41 @@ main{
     background-position: center;
 }
 
+.bannerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 150px;
+    padding-left: 80px;
+    padding-top: 325px;
+}
+
+.bannerContent h1{
+    color: #9400CC;
+    font-size: 2.9rem;
+    padding-bottom: 20px;
+}
+
+.bannerContent p{
+    color: aliceblue;
+}
+
+.bannerContent a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
 section{
     width: 100%;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,36,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 .cardsContainer{
@@ -102,7 +130,6 @@ section{
 }
 
 footer{
-    background: aliceblue;
     width: 100%;
     height: 260px;
     display: flex;
