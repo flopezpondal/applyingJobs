@@ -1,11 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Lato', sans-serif;
+}
+
 header{
-    background: aliceblue;
     width: 100%;
     height: 65px;
     display: flex;
@@ -32,17 +37,68 @@ nav ul li a{
     color: black;
     text-transform: uppercase;
     font-size: 13px;
+    color: #232323;
+}
+
+nav ul li a:hover{
+    color: #000000;
 }
 
 main{
     width: 100%;
-    height: 800px;
+    height: 650px;
 }
 
 .banner{
     width: 100%;
     height: 650px;
-    background: antiquewhite;
+    background-image: url(/assets/portrait-young-african-american-man-with-vr-glasses.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.cardsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    padding: 0 80px;
+}
+
+.card{
+    width: 290px;
+    height: 350px;
+}
+
+.imageBox{
+    height: 175px;
+    background-image: url(/assets/sl_021422_48550_16.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.textBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 175px;
+    padding: 0 20px;
+    background: aliceblue;
+}
+
+.textBox a{
+    text-decoration: none;
+    color: darkorange;
+    text-transform: uppercase;
+    font-size: 13px;
 }
 
 footer{
@@ -52,6 +108,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 80px;
 }
 
 .logoInfo{
