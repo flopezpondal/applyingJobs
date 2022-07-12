@@ -39,11 +39,32 @@ main{
     height: 800px;
 }
 
-footer{
+.banner{
+    width: 100%;
+    height: 650px;
     background: antiquewhite;
+}
+
+footer{
+    background: aliceblue;
     width: 100%;
     height: 260px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.logoInfo{
+    height: 200px;
+    border: 1px solid;
+}
+
+.inputEmail{
+    height: 200px;
+    border: 1px solid;
+}
+
+.socialNetworks{
+    height: 200px;
+    border: 1px solid;
 }
